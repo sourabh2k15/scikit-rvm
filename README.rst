@@ -37,6 +37,7 @@ Classification is done with the RVC class::
 
     >>> from skrvm import RVC
     >>> from sklearn.datasets import load_iris
+    >>> iris = load_iris()
     >>> clf = RVC()
     >>> clf.fit(iris.data, iris.target)
     RVC(alpha=1e-06, beta=1e-06, beta_fixed=False, bias_used=True, coef0=0.0,
