@@ -279,7 +279,7 @@ class RVC(BaseRVM, ClassifierMixin):
             return super(RVC, self).fit(X, self.t)
         else:
             self.multi_ = None
-            self.multi_ = OneVsRestClassifier(self)
+            self.multi_ = OneVsRestClassifier(self, n_jobs=1)
             self.multi_.fit(X, y)
             return self
 
