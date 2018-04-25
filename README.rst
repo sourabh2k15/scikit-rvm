@@ -18,7 +18,7 @@ Quickstart
 
 With NumPy, SciPy and scikit-learn available in your environment, install with::
 
-    pip install https://github.com/JamesRitchie/scikit-rvm/archive/master.zip
+    pip install https://github.com/sourabh2k15/scikit-rvm/archive/master.zip
 
 Regression is done with the RVR class::
 
